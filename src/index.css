@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#0a0a0a] text-gray-300 antialiased;
+  }
+}
+
+/* Custom "Haunted" Glow for buttons and borders */
+.haunted-glow {
+  box-shadow: 0 0 15px rgba(238, 77, 45, 0.2);
+}
