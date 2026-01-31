@@ -4,39 +4,39 @@ export default function Products() {
   const products = [
     {
       name: "Platinum",
-      img: "/platinum.png", // Direct path to public folder
+      img: "/Platinum.png", // Direct path to public folder
       desc: "A cold, metallic burn. Distilled through silver for the elite predator.",
       proof: "40% ALC",
     },
     {
       name: "Diamond",
-      img: "/diamond.png",
+      img: "/Diamond.png",
       desc: "Crystal clarity with a razor-sharp finish. Hard to find, harder to forget.",
-      proof: "42% ALC",
+      proof: "41% ALC",
     },
     {
       name: "Crown",
-      img: "/crown.png",
+      img: "/Crown.png",
       desc: "The king of the cellar. A heavy, royal blend for those who rule the night.",
-      proof: "48% ALC",
+      proof: "41.8% ALC",
     },
     {
       name: "Ace",
-      img: "/ace.png",
+      img: "/Ace.png",
       desc: "The wild card. A spicy, unpredictable fusion that hits like a thunderclap.",
-      proof: "45% ALC",
+      proof: "42.2% ALC",
     },
     {
       name: "Dominator",
-      img: "/dominator.png",
+      img: "/Dominator.png",
       desc: "Aggressive body with a smoky silhouette. Designed to overpower the senses.",
-      proof: "55% ALC",
+      proof: "43.6% ALC",
     },
     {
       name: "Conqueror",
-      img: "/conqueror.png",
+      img: "/Conqueror.png",
       desc: "The final sip. A dark, obsidian-aged spirit for the last one standing.",
-      proof: "60% ALC",
+      proof: "48.8% ALC",
     },
   ];
 
