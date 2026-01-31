@@ -1,47 +1,40 @@
 import React from "react";
-// Import your 6 assets
-import platinumImg from "../../assets/platinum.png";
-import diamondImg from "../../assets/diamond.png";
-import crownImg from "../../assets/crown.png";
-import aceImg from "../../assets/ace.png";
-import dominatorImg from "../../assets/dominator.png";
-import conquerorImg from "../../assets/conqueror.png";
 
 export default function Products() {
   const products = [
     {
       name: "Platinum",
-      img: platinumImg,
+      img: "/platinum.png", // Direct path to public folder
       desc: "A cold, metallic burn. Distilled through silver for the elite predator.",
       proof: "40% ALC",
     },
     {
       name: "Diamond",
-      img: diamondImg,
+      img: "/diamond.png",
       desc: "Crystal clarity with a razor-sharp finish. Hard to find, harder to forget.",
       proof: "42% ALC",
     },
     {
       name: "Crown",
-      img: crownImg,
+      img: "/crown.png",
       desc: "The king of the cellar. A heavy, royal blend for those who rule the night.",
       proof: "48% ALC",
     },
     {
       name: "Ace",
-      img: aceImg,
+      img: "/ace.png",
       desc: "The wild card. A spicy, unpredictable fusion that hits like a thunderclap.",
       proof: "45% ALC",
     },
     {
       name: "Dominator",
-      img: dominatorImg,
+      img: "/dominator.png",
       desc: "Aggressive body with a smoky silhouette. Designed to overpower the senses.",
       proof: "55% ALC",
     },
     {
       name: "Conqueror",
-      img: conquerorImg,
+      img: "/conqueror.png",
       desc: "The final sip. A dark, obsidian-aged spirit for the last one standing.",
       proof: "60% ALC",
     },
@@ -67,7 +60,7 @@ export default function Products() {
               key={index}
               className="group relative bg-[#0d0d0d] border border-gray-900 overflow-hidden transition-all duration-500 hover:border-orange-800/40 shadow-2xl"
             >
-              {/* IMAGE CONTAINER (Cropped to hide watermarks) */}
+              {/* IMAGE CONTAINER */}
               <div className="relative w-full h-80 overflow-hidden bg-black">
                 <img
                   src={item.img}
@@ -75,7 +68,6 @@ export default function Products() {
                   className="w-full h-full object-cover transform scale-125 group-hover:scale-150 transition-transform duration-1000 ease-in-out"
                   style={{ objectPosition: "center 20%" }}
                 />
-                {/* Vignette Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-transparent to-transparent opacity-90"></div>
               </div>
 
